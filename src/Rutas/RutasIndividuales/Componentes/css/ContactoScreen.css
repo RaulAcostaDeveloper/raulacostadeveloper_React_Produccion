@@ -1,0 +1,51 @@
+
+.contactoScreen {
+    z-index: 3;
+    /* Aparición */
+    display: block;
+    /* Posición */
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* Apariencia */
+    color: rgb(233, 233, 233);
+    background-color: rgb(37, 37, 37);
+    transition: 1s;
+
+}
+.contactoScreen #headerContacto{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.contactoScreen #articleContacto{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(52, 52, 52);
+}
+.contactoScreen #articleContacto p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactoScreen #articleContacto a {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.contactoScreen #articleContacto img{
+    width: 100%;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+}
