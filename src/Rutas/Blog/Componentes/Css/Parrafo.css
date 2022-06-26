@@ -1,0 +1,15 @@
+.contenedorParrafo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.parrafo{
+    width: 80%;
+    font-size: 18px;
+    text-align: justify;
+}
+li{
+    margin-bottom: 5px;
+}

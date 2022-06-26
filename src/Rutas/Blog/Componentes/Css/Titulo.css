@@ -1,0 +1,13 @@
+.contenedorTitulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+.titulo{
+    width: 80%;
+    font-weight: bold;
+    font-size: 22px;
+}

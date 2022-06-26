@@ -14,7 +14,7 @@ const Portafolio = ()=>{
         <div>
             {mostrarContactoScreen ? <ContactoScreen toggleContacto={toggleContactoScreen}/>:null}
             <HeaderPortafolio toggleContacto={toggleContactoScreen}/>
-            <Portada/>
+            <Portada titulo={'Raúl Acosta'} subtitulo={'Desarrollador Front End'} imagen={'1NtoU3RyOG_L2SjkXeJhvpWj59BcdrN5p'}/>
             <SobreMi/>
             <MisCertificados/>
             <MisDesarrollos/>

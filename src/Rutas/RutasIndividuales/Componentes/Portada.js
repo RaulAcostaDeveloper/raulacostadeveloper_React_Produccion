@@ -1,13 +1,13 @@
-import mifoto from '../../../Imagenes/miFoto.jpg';
 import './css/Portada.css';
-const Portada = ()=>{
+const driveUrl = 'http://drive.google.com/uc?export=view&id='
+const Portada = ({imagen, titulo, subtitulo})=>{
     return (
         <article className='primerArticulo'>
             <div className="portadaPrimerArticulo">
             </div>
-            <img src={mifoto} alt="foto raul acosta desarrollador web front end"/>
-            <h1>Raúl Acosta</h1>
-            <h2>Desarrollador Front End</h2>
+            <img src={driveUrl+imagen} alt="foto raul acosta desarrollador web front end"/>
+            <h1>{titulo}</h1>
+            <h2>{subtitulo}</h2>
         </article>
     )
 }

@@ -7,6 +7,7 @@ const HeaderPortafolio =({toggleContacto})=>{
                 <nav>
                     <a onClick={toggleContacto}>Contacto</a>
                     <Link to="/blog">Blog</Link>
+                    <Link to="/">Portafolio</Link>
                 </nav>
             </header>
         </div>

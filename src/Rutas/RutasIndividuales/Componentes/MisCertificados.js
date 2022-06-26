@@ -1,122 +1,60 @@
 import Certificado from '../../../Componentes/Certificado';
 import Contenedor from '../../../Componentes/Contenedor';
 
-import BasicoDeJavaScript from '../../../Imagenes/Certificados/BásicoDeJavaScript.png';
-import AcademiaCells from '../../../Imagenes/Certificados/AcademiaCells-1.png';
-import Bootstrap from '../../../Imagenes/Certificados/Bootstrap.png';
-import CodigodeEtica from '../../../Imagenes/Certificados/CodigodeEtica-1.png';
-import Constanciadelenguaextrangerainglés_page from '../../../Imagenes/Certificados/Constanciadelenguaextrangerainglés_page-0001.jpg';
-import DesarrolloSeguro from '../../../Imagenes/Certificados/DesarrolloSeguro-E6BCFDB1A001.png';
-import marcapersonal from '../../../Imagenes/Certificados/diploma-marca-personal_page-0001.jpg';
-import EstrategiasParaAprenderEnLineaEfectivamente from '../../../Imagenes/Certificados/EstrategiasParaAprenderEnLineaEfectivamente.png';
-import FundamentosDeIngenieríaDeSoftware from '../../../Imagenes/Certificados/FundamentosDeIngenieríaDeSoftware.png';
-import Inteligenciaemocional from '../../../Imagenes/Certificados/Inteligenciaemocional.png';
-import JavaScriptAlgorithmsAndDataStructtures from '../../../Imagenes/Certificados/JavaScriptAlgorithmsAndDataStructtures.png';
-import ReactCertificado from '../../../Imagenes/Certificados/React.png';
-import ReactNative from '../../../Imagenes/Certificados/ReactNative.jpg';
-import ResponsiveWebDesign from '../../../Imagenes/Certificados/ResponsiveWebDesign.png';
-import SAFeforTeams from '../../../Imagenes/Certificados/SAFeforTeams-1.png';
-import SAFe5Practitioner from '../../../Imagenes/Certificados/SAFe5Practitioner.png';
-import SAFeForTeamsCourse from '../../../Imagenes/Certificados/SAFeForTeamsCourse.png';
-import ScrumFoundationProfessionalCertificate from '../../../Imagenes/Certificados/ScrumFoundationProfessionalCertificate.png';
-import SecurityAwareness_page from '../../../Imagenes/Certificados/SecurityAwareness_page-0001.jpg';
-
 const MisCertificados =()=>{
-    const certificados=[
-        {
-            imagen:BasicoDeJavaScript,
-            titulo:'Fundamentos de programación con JavaScript',
-            enlace:BasicoDeJavaScript,
-        },
-        {
-            imagen:JavaScriptAlgorithmsAndDataStructtures,
-            titulo:'Algoritmos y estructura de datos con JavaScript',
-            enlace:JavaScriptAlgorithmsAndDataStructtures,
-        },
-        {
-            imagen:ResponsiveWebDesign,
-            titulo:'Diseño web responsivo',
-            enlace:ResponsiveWebDesign,
-        },
-        {
-            imagen:AcademiaCells,
-            titulo:'Academa Cells. Desarrollo web por componentes',
-            enlace:AcademiaCells,
-        },
-        {
-            imagen:ReactCertificado,
-            titulo:'React.js',
-            enlace:ReactCertificado,
-        },
-        {
-            imagen:ReactNative,
-            titulo:'React Native',
-            enlace:ReactNative,
-        },
-        {
-            imagen:ScrumFoundationProfessionalCertificate,
-            titulo:'Desarrollo con metodología Scrum',
-            enlace:ScrumFoundationProfessionalCertificate,
-        },
-        {
-            imagen:SAFeForTeamsCourse,
-            titulo:'Certificación de curso de Scaled Agile Framework For Teams',
-            enlace:SAFeForTeamsCourse,
-        },
-        {
-            imagen:DesarrolloSeguro,
-            titulo:'Desarrollo de software seguro, seguridad de datos, confidencialidad',
-            enlace:DesarrolloSeguro,
-        },
-        {
-            imagen:SecurityAwareness_page,
-            titulo:'Security Awareness',
-            enlace:SecurityAwareness_page,
-        },
-        {
-            imagen:Constanciadelenguaextrangerainglés_page,
-            titulo:'Constancia de certificacion de lengua extrangera Inglés',
-            enlace:Constanciadelenguaextrangerainglés_page,
-        },
-        {
-            imagen:Bootstrap,
-            titulo:'Maquetación web con Bootstrap',
-            enlace:Bootstrap,
-        },
-        {
-            imagen:FundamentosDeIngenieríaDeSoftware,
-            titulo:'Fundamentos de ingeniería de software',
-            enlace:FundamentosDeIngenieríaDeSoftware,
-        },
-        {
-            imagen:CodigodeEtica,
-            titulo:'Código de ética',
-            enlace:CodigodeEtica,
-        },
-        {
-            imagen:marcapersonal,
-            titulo:'Curso de marca personal',
-            enlace:marcapersonal,
-        },
-        {
-            imagen:EstrategiasParaAprenderEnLineaEfectivamente,
-            titulo:'Curso de estrategias para aprender en línea',
-            enlace:EstrategiasParaAprenderEnLineaEfectivamente,
-        },
-        {
-            imagen:Inteligenciaemocional,
-            titulo:'Curso de inteligencia emocional',
-            enlace:Inteligenciaemocional,
-        },
-    ]
     return (
     <Contenedor>
-        {certificados.map((certificado)=> <Certificado
-            imagen={certificado.imagen}
-            titulo={certificado.titulo}
-            enlace={certificado.enlace}
-            key={()=>certificado.titulo}
-        />)}
+        <Certificado imagen={'1IKath7_z5ddzbmfOC0o7gI1f0iQG_kH_'} 
+            titulo={'Fundamentos de programación con JavaScript'} 
+            />
+        <Certificado imagen={'1Ok1-qTHdWIa4C9efazpOFavoO57Ci8AH'} 
+            titulo={'Algoritmos y estructura de datos con JavaScript'} 
+            />
+        <Certificado imagen={'1GdrvXYG-ff4G3sDloMVHI7I1TE4Ii15-'} 
+            titulo={'Diseño web responsivo'} 
+            />
+        <Certificado imagen={'1OqJufYN860GBPEgUEgT2LoA533mZjag0'} 
+            titulo={'Academa Cells. Desarrollo web por componentes'} 
+            />
+        <Certificado imagen={'1sdaQ5uPKF5nw5aYvUFWIs_-_IfXNSipC'} 
+            titulo={'React.js'} 
+            />
+        <Certificado imagen={'1QL_7siqPAeYlQK13jXY7JyOBMFYvOLoV'} 
+            titulo={'React Native'} 
+            />
+        <Certificado imagen={'1OTS01IxfKLJnOhvoy1h72F4116c3ynrb'} 
+            titulo={'Desarrollo con metodología Scrum'} 
+            />
+        <Certificado imagen={'15K99n6hDnBRCoU9Z74oiqnbKCi1uampe'} 
+            titulo={'Certificación de curso de Scaled Agile Framework For Teams'} 
+            />
+        <Certificado imagen={'1s6KHnE-2rHKQZhV2ItplbLtWg8Len4vT'} 
+            titulo={'Desarrollo de software seguro, seguridad de datos, confidencialidad'} 
+            />
+        <Certificado imagen={'1P1HquiQJgM1VN-kIqpsA5pgDggpUacKY'} 
+            titulo={'Security Awareness'} 
+            />
+        <Certificado imagen={'1EXxJdhBLzLR0jkJLQakKSIV5f7xqxN83'} 
+            titulo={'Constancia de certificacion de lengua extrangera Inglés'} 
+            />
+        <Certificado imagen={'1OxElAnmFcIVoAA_poC79mWkhEdFJeIdo'} 
+            titulo={'Maquetación web con Bootstrap'} 
+            />
+        <Certificado imagen={'1e41LAwz9Qq03uzWCZ58TyfqGEIBgmuzT'} 
+            titulo={'Fundamentos de ingeniería de software'} 
+            />
+        <Certificado imagen={'1IW2le820nn6IaM7c07WAqtslV1pQqxGP'} 
+            titulo={'Código de ética'} 
+            />
+        <Certificado imagen={'1J9JkX7mVMBmTXV7vk1gx3_gew9uIA4mv'} 
+            titulo={'Curso de marca personal'} 
+            />
+        <Certificado imagen={'1-zEU6aujC20aDKBLcWQe5PD97thqIItS'} 
+            titulo={'Curso de estrategias para aprender en línea'} 
+            />
+        <Certificado imagen={'1aL7HHrOp03R_7Uxt4aF8KuZISIbemlK7'} 
+            titulo={'Curso de inteligencia emocional'} 
+            />
     </Contenedor>
     )
 }

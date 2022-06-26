@@ -1,10 +1,10 @@
 import './css/Carta.css';
-
+const driveUrl = 'http://drive.google.com/uc?export=view&id='
 const Carta =({imagen,titulo,informacion, tags, link, linkName})=>{
     return (
         <div className='carta'>
                 <div className='topCarta'>
-                    <img src={imagen}/>
+                    <img src={driveUrl+imagen}/>
                 </div>
                 <div className='bottomCarta'>
                     <h3 className='tituloCarta'>{titulo}</h3>
